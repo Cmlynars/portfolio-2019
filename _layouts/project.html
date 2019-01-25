@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="page-wrapper">
+
+	<h1>{{ page.pretty_title }}</h1>
+	<p class="detail">{{ page.details }}</p>
+
+	{{ content }}
+
+	<div class="image-container">
+		{% capture location %}img/{{ page.title }}{% endcapture %}
+		{% for image in site.static_files %}
+		{% if image.path contains location %}
+
+		<img class="project-image" src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.pretty_title }} Image" />
+
+		{% endif %}
+		{% endfor %}
+	</div>
+
+	<div class="project-links-container">
+		{% assign previous = page.order | minus: 1 %}
+		{% for projects in site.pages %}
+		{% if projects.order == previous %}
+		<a class="" href="{{ site.url }}{{ projects.url }}">< Previous</a>
+		{% endif %}
+		{% endfor %}
+		{% assign next = page.order | plus: 1 %}
+		{% for projects in site.pages %}
+		{% if projects.order == next %}
+		<a class="" href="{{ site.url }}{{ projects.url }}">Next ></a>
+		{% endif %}
+		{% endfor %}
+	</div>
+
+</div>

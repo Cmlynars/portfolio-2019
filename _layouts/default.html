@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/normalize.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="{{ site.baseurl }}/css/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <header>
+    <nav>
+    <a class="logo nav-item" href="{{ site.baseurl }}/">Chris Mlynarski</a>
+    <a class="nav-link nav-item" href="{{ site.baseurl }}/about">About</a>
+    </nav>
+  </header>
+
+  <!-- Add your site or application content here -->
+  {{ content }}
+
+  <footer>
+   <div class="footer-wrapper">
+     
+     {% include social_icons.html %}
+
+   </div> 
+  </footer>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
