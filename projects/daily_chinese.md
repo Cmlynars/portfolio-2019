@@ -3,7 +3,7 @@ layout: project
 title: daily_chinese
 pretty_title: Daily Chinese
 details: Founder and Designer
-blurb: Creating an iOS and Android app to help Chinese learners grow,track, and master their Chinese vocabulary.
+blurb: Creating an iOS and Android app to help serious Chinese learners grow, track, and master their vocabulary.
 card_image: daily_chinese.png
 order: 1
 ---

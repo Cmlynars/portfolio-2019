@@ -18,6 +18,9 @@ title: CSS stylesheet
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 /*
@@ -118,48 +121,66 @@ title: CSS stylesheet
 
 :root {
   --primary-text-color: #2C2F2E;
-  --secondary-text-color: #B4B4B4;
+  --secondary-text-color: #999999;
+  --soft-gray: #CFCFCF;
   --accent-color: #44c5a2;
 }
 
 h1 {
     font-family: nittigrotesk-bold;
     font-size: 32px;
+    font-weight: 500;
     color: var(--primary-text-color);
 }
 
 h2 {
     font-family: nittigrotesk-bold;
     font-size: 28px;
+    font-weight: 500;
     color: var(--primary-text-color);  
     margin: 0; 
 }
 
 p {
     font-family: nittigrotesk-regular;
+    font-weight: 500;
     font-size: 21px;
-    color: var(--secondary-text-color);
+    line-height: 32px;
+    color: var(--primary-text-color);
     margin-top: 0;
 }
 
 a {
-    font-family: 'IBM Plex Mono', monospace;
     color: var(--accent-color);
-    font-size: 16px;
     text-decoration: none;
 }
 
 .understate {
-    color: #DADADA;
+    color: var(--soft-gray);
 }
 
 .detail {
-    color: var(--primary-text-color); 
-    margin-bottom: 14px;  
+    font-family: nittigrotesk-regular;
+    margin-bottom: 14px;
 }
 
-.inline-link {
-    font-size: 17px;
+.home-detail {
+    color: var(--primary-text-color); 
+}
+
+.project-detail {
+    color: var(--secondary-text-color);  
+}
+
+.home-blurb {
+ color: var(--secondary-text-color);     
+}
+
+.link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 600px) {
@@ -170,12 +191,11 @@ a {
 }
 
 /* ==========================================================================
-   Nav
+   Nav Styles
    ========================================================================== */
 
 .logo {
-    font-family: 'IBM Plex Mono', monospace;
-    color: var(--primary-text-color);
+    margin-right: 50px;
 }
 
 .nav-link {
@@ -184,7 +204,9 @@ a {
 
 .nav-item {
     align-self: baseline;
-    font-size: 17px;
+    color: var(--primary-text-color);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
 }
 
 /* ==========================================================================
@@ -199,9 +221,10 @@ nav {
     margin: 0 auto;
 }
 
-footer {
-    max-width: 1000px;
-    border-top: 1px solid var(--secondary-text-color);
+@media (min-width: 600px) {
+    nav {
+        justify-content: flex-start;
+    }
 }
 
 .page-wrapper {
@@ -234,6 +257,10 @@ footer {
     justify-content: space-between;
 }
 
+.image-container {
+    margin-top: 50px;
+}
+
 @media (min-width: 600px) {
     
     nav {
@@ -242,6 +269,7 @@ footer {
 
     .hero-copy {
         margin-top: 40px;
+        margin-bottom: 100px;
     }
 }
 
@@ -250,7 +278,9 @@ footer {
    ========================================================================== */
 
 footer {
-    margin: 0 auto;
+    margin: 80px auto 0 auto;
+    max-width: 1000px;
+    border-top: 1px solid var(--soft-gray);
 }
 
 .footer-wrapper {
@@ -262,7 +292,7 @@ footer {
 }
 
 .icon-wrapper {
-    fill: var(--secondary-text-color);
+    fill: var(--soft-gray);
 }
 
 .icon-wrapper:hover {
@@ -358,10 +388,6 @@ footer {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),

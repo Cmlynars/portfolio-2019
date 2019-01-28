@@ -17,9 +17,9 @@ description:
 	<div class="project-block">
 		<img class="home-image" src="{{ site.baseurl}}/img/index/{{ projects.card_image }}" alt="{{ page.pretty_title }} Project">
 		<h2>{{ projects.pretty_title }}</h2>
-		<p class="detail">{{ projects.details }}</p>
-		<p>{{ projects.blurb }}</p>
-		<a href="{{ site.baseurl }}{{ projects.url }}">View Project</a>
+		<p class="detail home-detail">{{ projects.details }}</p>
+		<p class="home-blurb">{{ projects.blurb }}</p>
+		<a class="link" href="{{ site.baseurl }}{{ projects.url }}">View Project</a>
 	</div>
 
 	{% endif %}

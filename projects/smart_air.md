@@ -9,10 +9,7 @@ order: 5
 ---
 
 
-<p>I worked with a Beijing-based, environmental startup to redesign the visual identity and home page presence of their store on the Taobao online marketplace. The company provides consumer air filters to individuals and families looking for an inexpensive, effective way to remove harmful pollutants from the air inside their homes and offices.</p>
+<p>I worked with a Beijing-based, environmental startup to redesign the visual identity and home page presence of their store on the Taobao online marketplace. The company sells air filters to remove harmful pollutants from the air inside homes and offices.</p>
 
-<p>The design distilled complex information about the benefits of the product while simplifying and updating the company's visual identity to better represent their values and mission.</p>
-
-
-<p>Please find an image of the full page <a class="inline-link" href="{{ site.baseurl }}/img/external/smart_air_full.png" target="_blank">here</a>.</p>
+<p>The design highlighted the benefits of the product while simplifying and updating the company's visual identity. The design of the page can be found <a class="inline-link" href="{{ site.baseurl }}/img/external/smart_air_full.png" target="_blank">here</a>.</p>
 
