@@ -9,7 +9,7 @@ order: 1
 ---
 
 
-<p>I am creating a spaced-repetition, flashcard style mobile app for iOS and Android to help Chinese learners grow and track their  Chinese vocabulary.</p>
+<p>I'm creating a spaced-repetition, flashcard style mobile app for iOS and Android to help Chinese learners grow and track their  Chinese vocabulary.</p>
 
 <p>As a solo founder working with a remote developer, I am running the design, project management, marketing, content strategy and all other non-technical focus areas leading up to beta release. Please find more information about the product <a href="https://www.dailychinese.app" target="_blank">here</a>.</p>
 
