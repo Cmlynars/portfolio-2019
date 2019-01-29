@@ -9,8 +9,5 @@ _site/
 .DS_Store
 .htaccess
 browserconfig.xml
-favicon.ico
 robots.txt
 site.webmanifest
-tile-wide.png
-tile.png
