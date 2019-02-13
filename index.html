@@ -6,7 +6,7 @@ description:
 
 <div class="page-wrapper">
 
-	<h1 class="hero-copy">
+	<h1 class="hero-heading">
 		Designer and Founder in between Chicago and China. <span class="understate">Creating products using human-centered design informed by data.</span>
 	</h1>
 
@@ -15,7 +15,8 @@ description:
 	{% if projects.layout == 'project' %}
 
 	<div class="project-block">
-		<img class="home-image" src="{{ site.baseurl}}/img/index/{{ projects.card_image }}" alt="{{ page.pretty_title }} Project">
+		<a href="{{ site.baseurl }}{{ projects.url }}">
+		<img class="home-image" src="{{ site.baseurl}}/img/index/{{ projects.card_image }}" alt="{{ page.pretty_title }} Project"></a>
 		<h2>{{ projects.pretty_title }}</h2>
 		<p class="detail home-detail">{{ projects.details }}</p>
 		<p class="home-blurb">{{ projects.blurb }}</p>
