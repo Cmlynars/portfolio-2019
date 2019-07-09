@@ -2,7 +2,7 @@
 layout: project
 title: avant
 pretty_title: Avant
-details: Head of Design and UX
+details: Head of Design and UX | Apr 2016 - Present
 blurb: Leading all design projects at a fintech company that provides credit products to consumers and technology solutions to banks.
 card_image: avant.png
 order: 2

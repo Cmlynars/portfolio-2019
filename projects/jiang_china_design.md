@@ -2,7 +2,7 @@
 layout: project
 title: jiang_china_design
 pretty_title: Jiang China Design 匠
-details: Design Mentor
+details: Design Mentor | Summer 2015
 blurb: Taught Design Thinking at China's first Human-centered Design bootcamp.
 card_image: jiang_china_design.jpeg
 order: 3

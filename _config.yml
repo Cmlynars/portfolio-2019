@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Chris Mlynarski Design Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
-  Desinger and and Product Strategist in Chicago by way of China. Creating digital products using human-centered design informed by data.
-baseurl: "/" # the subpath of your site, e.g. /blog
+  Design Leader and Founder in Chicago by way of China. Creating digital products using human-centered design informed by data.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Cmlynars
 
