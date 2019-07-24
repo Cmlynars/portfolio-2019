@@ -150,6 +150,15 @@ p {
     margin-top: 0;
 }
 
+li {
+    font-family: nittigrotesk-regular;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--primary-text-color);
+    margin-bottom: 12px;
+}
+
 a {
     color: var(--accent-color);
     text-decoration: none;
