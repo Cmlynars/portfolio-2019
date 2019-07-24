@@ -14,7 +14,7 @@ Our team of 5 primarily focuses on providing end-to-end design services to bank 
 
 **Key projects:**
 
-* {: }Led the design and UX implementation for 6 multimillion dollar bank partnerships including [TD Bank](https://www.tdfitloan.com/#!/){:class='inline-link' target='_blank'} and [HSBC](https://personalloanapply.us.hsbc.com/apply/){:class='inline-link' target='_blank'}
+* {: p}Led the design and UX implementation for 6 multimillion dollar bank partnerships including [TD Bank](https://www.tdfitloan.com/#!/){:class='inline-link' target='_blank'} and [HSBC](https://personalloanapply.us.hsbc.com/apply/){:class='inline-link' target='_blank'}
 * Designed the partnership management tool that allows bank partners to manage users, share files, submit service tickets, and integrate with third-parties
 * Created the Amount brand and visual identity
 * Supervise design-related WCAG compliance for all partner implementations
