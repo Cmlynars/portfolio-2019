@@ -12,7 +12,7 @@ I built the design team at a fintech company that provides credit products to mi
 
 **Key projects:**
 
-* Redesigned the customer loan dashboard and loan verifications experience
+* {: }Redesigned the customer loan dashboard and loan verifications experience
 * Completed end-to-end designs for the launch of the Avant credit card, including the application, onboarding, activation, and dashboard experiences
 * Designed the Avant [iOS](https://apps.apple.com/us/app/avant-personal-loans/id956960183){:class='inline-link' target='_blank'} and [Android](https://play.google.com/store/apps/details?id=com.avant.android.app&hl=en_US){:class='inline-link' target='_blank'} mobile apps
 * Redesigned Avant.com to improve top-of-funnel conversion and brand awareness
