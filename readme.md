@@ -1,1 +1,3 @@
-Chris Mlynarski Design Portfolio
+# chrismlynarski.com
+
+A small static personal site served with GitHub Pages.
