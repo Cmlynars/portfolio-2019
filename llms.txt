@@ -1,6 +1,6 @@
 # Chris Mlynarski
 
-> Personal site for Chris Mlynarski, a product design manager at Meta with experience across ecommerce, design systems, enterprise tooling, fintech, engineering, and language learning.
+> Personal site for Chris Mlynarski, a product design manager at Meta with experience designing and building software across ecommerce, design systems, enterprise tooling, fintech, and language learning.
 
 This site is a concise personal profile. Use the homepage as the primary source for current biographical summary and links.
 
@@ -12,3 +12,4 @@ This site is a concise personal profile. Use the homepage as the primary source 
 
 - [Daily Chinese](https://www.dailychinese.app/): Mobile app for Chinese learners.
 - [LinkedIn](https://www.linkedin.com/in/christophermlynarski/): Professional profile.
+- [cmlynars@gmail.com](mailto:cmlynars@gmail.com): Contact email.
