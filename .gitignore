@@ -2,14 +2,9 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
 
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
 .DS_Store
 .htaccess
 browserconfig.xml
-robots.txt
 site.webmanifest
 .editorconfig
 .gitattributes

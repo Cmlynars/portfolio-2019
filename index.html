@@ -1,29 +1,98 @@
----
-layout: default
-title: home page
-description:
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chris Mlynarski</title>
+    <meta
+      name="description"
+      content="Chris Mlynarski is a product design manager at Meta with experience across ecommerce, design systems, enterprise tooling, fintech, and language learning."
+    />
+    <link rel="canonical" href="https://www.chrismlynarski.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chris Mlynarski" />
+    <meta
+      property="og:description"
+      content="Product design manager at Meta with experience across ecommerce, design systems, enterprise tooling, fintech, and language learning."
+    />
+    <meta property="og:url" content="https://www.chrismlynarski.com/" />
+    <meta
+      property="og:image"
+      content="https://www.chrismlynarski.com/img/about_cropped.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chris Mlynarski" />
+    <meta
+      name="twitter:description"
+      content="Product design manager at Meta with experience across ecommerce, design systems, enterprise tooling, fintech, and language learning."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.chrismlynarski.com/img/about_cropped.png"
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/icon.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="intro">
+        <p class="eyebrow">Chris Mlynarski</p>
+        <h1>Product design leader and developer.</h1>
+      </header>
 
-<div class="page-wrapper">
+      <img
+        class="portrait"
+        src="/img/about_cropped.png"
+        alt="Chris Mlynarski"
+      />
 
-	<h1 class="hero-heading">
-		Design Leader and Founder somewhere between Chicago and China. <span class="understate">Creating products using human-centered design informed by data.</span>
-	</h1>
+      <section class="section" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          I am currently a product design manager at Meta with over a decade of
+          experience in design. My work at Meta has included customer-facing
+          ecommerce experiences, design systems, and enterprise tooling.
+        </p>
+        <p>
+          Prior to my current role, I worked in fintech in Chicago, which
+          included building and growing design teams at Avant and Amount.
+        </p>
+        <p>
+          I got my start in design at a microfinance NGO in China, where I led
+          human-centered design projects focused on improving financial literacy
+          for women entrepreneurs in rural areas.
+        </p>
+        <p>
+          I have an engineering background and have built projects with React,
+          React Native, JavaScript, Elixir/Phoenix, and other technologies.
+        </p>
+        <p>
+          Outside of work, I created
+          <a href="https://www.dailychinese.app/">Daily Chinese</a>, a mobile
+          app that helps Chinese learners grow their vocabulary. It is available
+          on the
+          <a
+            href="https://apps.apple.com/us/app/daily-chinese-grow-vocabulary/id1468602303"
+            >App Store</a
+          >
+          and
+          <a
+            href="https://play.google.com/store/apps/details?id=com.mojayllc.dailychinese"
+            >Google Play</a
+          >.
+        </p>
+      </section>
 
-	{% assign sorted_projects = site.pages | sort:"order" %}
-	{% for projects in sorted_projects %}
-	{% if projects.layout == 'project' %}
-
-	<div class="project-block">
-		<a href="{{ site.baseurl }}{{ projects.url }}">
-		<img class="home-image" src="{{ site.baseurl}}/img/index/{{ projects.card_image }}" alt="{{ page.pretty_title }} Project"></a>
-		<h2>{{ projects.pretty_title }}</h2>
-		<p class="detail home-detail">{{ projects.details }}</p>
-		<p class="home-blurb">{{ projects.blurb }}</p>
-		<a class="link" href="{{ site.baseurl }}{{ projects.url }}">View Project</a>
-	</div>
-
-	{% endif %}
-	{% endfor %}
-
-</div>
+      <section class="section" aria-label="Contact">
+        <ul class="link-list">
+          <li>
+            <a href="https://www.linkedin.com/in/christophermlynarski/"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
