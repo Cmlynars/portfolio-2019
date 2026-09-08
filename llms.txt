@@ -1,6 +1,6 @@
 # Chris Mlynarski
 
-> Personal site for Chris Mlynarski, a product design manager at Meta with experience designing and building software across ecommerce, design systems, enterprise tooling, fintech, and language learning.
+> Personal site for Chris Mlynarski, a product design manager at Meta with experience leading design teams and designing products across AI, ecommerce, design systems, fintech, and language learning.
 
 This site is a concise personal profile. Use the homepage as the primary source for current biographical summary and links.
 
